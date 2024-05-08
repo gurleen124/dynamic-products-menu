@@ -9,11 +9,25 @@
 </head>
 
 <body class="bg-gray-200">
-    <section>
+    <section class="">
         <h1 class="text-center text-5xl font-bold text-blue-950 my-10">Products Menu</h1> 
-        <div class="btn-container flex justify-center *:transition-all text-xl mb-14 gap-x-2 *:border-b-gray-600 *:border-e-gray-600 *:shadow *:shadow-yellow-600 *:border-2 *:border-yellow-700 *:px-3 *:rounded-md *:text-yellow-700">
+        <div
+            class="btn-container flex justify-center *:transition-all text-xl mb-14 gap-x-2 *:border-b-gray-600 *:border-e-gray-600 *:shadow *:shadow-yellow-600 *:border-2 *:border-yellow-700 *:px-3 *:rounded-md *:text-yellow-700">
+            <!-- <button type="button" class="hover:bg-yellow-700 capitalize hover:text-white" data-tab="${category}">${category}</button> -->
         </div>
         <div class="grid grid-cols-2 w-11/12 mx-auto gap-10 menu-items">
+            <!-- <div class="grid gap-x-5 grid-cols-5">
+                <img src=${item.img} alt=${item.title}
+                    class="col-span-2 h-40 object-cover w-60 border-4 rounded-md border-yellow-600" />
+                <div class="col-span-3">
+                    <div class="flex justify-between font-semibold text-lg tracking-widest">
+                        <h2 class="capitalize">${item.title}</h2>
+                        <h2 class="text-yellow-700">$${item.price}</h2>
+                    </div>
+                    <hr class="border-dotted border-black my-3">
+                    <p class="text-justify font-medium text-gray-600">${item.desc}</p>
+                </div>
+            </div> -->
         </div>
     </section>
     <script src="main.js"></script>
